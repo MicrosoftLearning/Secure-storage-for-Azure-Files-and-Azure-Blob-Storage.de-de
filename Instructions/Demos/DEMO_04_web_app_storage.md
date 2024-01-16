@@ -18,7 +18,7 @@ In dieser Demonstration sehen wir uns die Themen Verschlüsselung und App-Sicher
 
 1. Erstellen Sie eine **verwaltete Identität**. Weitere Informationen finden Sie unter [Verwaltete Identitäten](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
-1. Erstellen Sie einen **Schlüsseltresor** mit den Standardeinstellungen. Weitere Informationen finden Sie unter [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Erstellen Sie einen **Schlüsseltresor**. Übernehmen Sie die Standardeinstellungen, **außer** auf der Registerkarte **Zugriffskonfiguration**. Stellen Sie sicher, dass dort **Tresorzugriffsrichtlinie** ausgewählt ist. Weitere Informationen finden Sie unter [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
 1. Warten Sie, bis der Schlüsseltresor bereitgestellt wurde, und wählen Sie dann **Zu Ressource wechseln** aus.
 

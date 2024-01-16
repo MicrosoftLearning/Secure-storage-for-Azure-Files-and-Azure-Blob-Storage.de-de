@@ -9,7 +9,7 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
 
 ![Diagramm mit einem Speicherkonto, verwalteten Identitäten und einem Schlüsseltresor](../Media/task-5.png)
 
-## Qualifikationsaufgabe
+## Qualifikationsaufgaben
 
 - Erstellen eines Speicherkontos mit einer vom System verwalteten Identität.
 - Sicherer Zugriff auf das Speicherkonto mit einem Schlüsseltresor und Schlüssel.
@@ -57,7 +57,7 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
     - Klicken Sie auf **Rollenzuweisung hinzufügen** (Mitte der Seite).
     - Suchen Sie auf der Seite **Auftragsfunktionsrollen** nach **Key Vault-Administrator**, und wählen Sie diese Option dann aus.
     - Wählen Sie auf der Registerkarte **Mitglieder** die Option **Benutzer, Gruppe oder Dienstprinzipal** aus.
-    - Wählen Sie **Mitglieder auswählen** aus.
+    - Wählen Sie **Mitglieder auswählen**.
     - Suchen Sie nach Ihrem Konto, und wählen Sie es aus. Wählen Sie in der oberen rechten Ecke des Portals Ihr Benutzerkonto aus.
     - Klicken Sie auf **Auswählen** und dann auf **Überprüfen+Zuweisen**.
     - Wählen Sie ein zweites Mal **Überprüfen und zuweisen** aus, um die Rollenzuweisung hinzuzufügen.
@@ -68,7 +68,8 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
     - Suchen Sie nach  und wählen Sie die Option**Schlüsseltresore**,
     - Klicken Sie auf **Erstellen**.
     - Wählen Sie Ihre **Ressourcengruppe** aus.
-    - Geben Sie den **Namen**für den Schlüsseltresor an. Der Name muss eindeutig sein. 
+    - Geben Sie den **Namen**für den Schlüsseltresor an. Der Name muss eindeutig sein.
+    - Stellen Sie auf der Registerkarte **Access-Konfiguration** sicher, dass die **Vault-Zugriffsrichtlinie** ausgewählt ist. 
     - Klicken Sie auf **Überprüfen + erstellen**.
     - Warten Sie, bis die Überprüfung erfolgreich abgeschlossen ist, und wählen Sie dann **Erstellen** aus.
     - Wählen Sie nach der erfolgreichen Bereitstellung **Zu Ressource wechseln** aus.
@@ -95,14 +96,14 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
     
 1. Konfigurieren Sie die Speicherkontoverschlüsselung, um kundenseitig verwaltete Schlüssel in Ihrem Schlüsseltresor zu verwenden. Weitere Informationen zu[zu kundenseitig verwalteten Schlüsseln in einem vorhandenen Speicherkonto.](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal)
     - Kehren Sie zu Ihrem Speicherkonto zurück.
-    - Wählen Sie im Abschnitt **Sicherheit + Netzwerkbetrieb** die Option **Verschlüsselung** aus.
+    - Wählen Sie im Abschnitt **Sicherheit + Netzwerk** das Blatt **Verschlüsselung** aus.
     - Wählen Sie **Von Kunden verwaltete Schlüssel** aus.
     - **Schlüsseltresor und Schlüssel auswählen**. Wählen Sie Schlüsseltresor und Schlüssel aus.
     - Bestätigen Sie Ihre Auswahl mit**Auswählen**. 
     - Stellen Sie sicher, dass der **Identitätstyp****dem Benutzer zugewiesen** ist.
     - **Wählen Sie eine Identität**.
     - Wählen Sie Ihre verwaltete Identität und dann **Hinzufügen**aus. 
-    - Wählen Sie **Speichern** aus, um die Änderungen zu speichern.
+    - **Speichern** Sie die Änderungen.
     - Wenn Sie eine Fehlermeldung erhalten, dass Ihre Identität nicht über die richtigen Berechtigungen verfügt, warten Sie eine Minute, und versuchen Sie es erneut. 
 
 ## Konfigurieren Sie eine zeitbasierte Aufbewahrungsrichtlinie und einen Verschlüsselungsbereich.
