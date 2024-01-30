@@ -18,7 +18,7 @@ In dieser Demonstration sehen wir uns die Themen Verschlüsselung und App-Sicher
 
 1. Erstellen Sie eine **verwaltete Identität**. Weitere Informationen finden Sie unter [Verwaltete Identitäten](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
-1. Erstellen Sie einen **Schlüsseltresor**. Übernehmen Sie die Standardeinstellungen, **außer** auf der Registerkarte **Zugriffskonfiguration**. Stellen Sie sicher, dass dort **Tresorzugriffsrichtlinie** ausgewählt ist. Weitere Informationen finden Sie unter [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Erstellen Sie einen **Schlüsseltresor**. Übernehmen Sie die Standardeinstellungen, **außer** auf der Registerkarte **Zugriffssteuerung**. Stellen Sie dort sicher, dass **Rollenbasierte Zugriffssteuerung in Azure (empfohlen)** ausgewählt ist. Weitere Informationen finden Sie unter [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
 1. Warten Sie, bis der Schlüsseltresor bereitgestellt wurde, und wählen Sie dann **Zu Ressource wechseln** aus.
 
@@ -78,7 +78,7 @@ In dieser Demonstration sehen wir uns die Themen Verschlüsselung und App-Sicher
 
 ## Konfigurieren Sie einen Verschlüsselungsbereich für die Infrastrukturverschlüsselung.
 
-1. Die Entwickler müssen auch die Infrastrukturverschlüsselung auf Containerebene festlegen. Diskutieren Sie Verschlüsselungsbereiche und Infrastrukturverschlüsselung. Erfahren Sie mehr, [Verschlüsselungsbereiche](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
+1. [Ergänzende Folie] Die Entwickler*innen müssen auch den Geltungsbereich der Infrastrukturverschlüsselung auf die Containerebene festlegen. Diskutieren Sie Verschlüsselungsbereiche und Infrastrukturverschlüsselung. Erfahren Sie mehr, [Verschlüsselungsbereiche](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
 1. Container im **Speicherkonto**
 

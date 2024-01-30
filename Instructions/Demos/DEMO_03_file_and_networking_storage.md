@@ -50,7 +50,7 @@ Erkunden Sie in dieser Demonstration Azure Files-Speicher und Speichernetzwerke.
 
 1. Überprüfen Sie die Einstellungen oben auf der Seite. Beispiel: **Hochladen** und **Ändern der Größe und Leistung**.
 
-1. Diskutieren Sie den Zweck von Momentaufnahmen. Weitere Informationen finden Sie unter [Dateifreigabemomentaufnahmen](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. [Ergänzende Folie] Besprechen Sie den Zweck von Momentaufnahmen. Weitere Informationen finden Sie unter [Dateifreigabemomentaufnahmen](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
 1. Wählen Sie Blatt **Vorgänge** die Option **Momentaufnahmen** aus.
 
