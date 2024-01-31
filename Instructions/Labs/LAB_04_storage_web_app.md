@@ -69,7 +69,7 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
     - Klicken Sie auf **Erstellen**.
     - Wählen Sie Ihre **Ressourcengruppe** aus.
     - Geben Sie den **Namen**für den Schlüsseltresor an. Der Name muss eindeutig sein.
-    - Stellen Sie auf der Registerkarte **Access-Konfiguration** sicher, dass die **Vault-Zugriffsrichtlinie** ausgewählt ist. 
+    - Stellen Sie auf der Registerkarte **Zugriffskonfiguration** sicher, dass **Rollenbasierte Zugriffssteuerung in Azure (empfohlen)** ausgewählt ist. 
     - Klicken Sie auf **Überprüfen + erstellen**.
     - Warten Sie, bis die Überprüfung erfolgreich abgeschlossen ist, und wählen Sie dann **Erstellen** aus.
     - Wählen Sie nach der erfolgreichen Bereitstellung **Zu Ressource wechseln** aus.
