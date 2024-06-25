@@ -24,8 +24,11 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
     - Suchen Sie im Portal nach der Option **Speicherkonten**, und wählen Sie sie aus. 
     - Wählen Sie **+ Erstellen** aus.
     - Für **Ressourcengruppe** wählen Sie **Neu erstellen**. Geben Sie Ihrer Ressourcengruppe einen **Namen**, und wählen Sie **OK** aus, um Ihre Änderungen zu speichern.
-    - Geben Sie einen **Speicherkontonamen** an. Der Name muss eindeutig sein und die Anforderungen in Bezug auf die Benennung erfüllen. 
-    - Wählen Sie **Überprüfen** und dann **Erstellen** aus, um das Speicherkonto zu erstellen.
+    - Geben Sie einen **Speicherkontonamen** an. Der Name muss eindeutig sein und die Anforderungen in Bezug auf die Benennung erfüllen.
+    - Wechseln Sie zur Registerkarte **Verschlüsselung**.
+    - Aktivieren Sie das Kontollkästchen **Infrastrukturverschlüsselung aktivieren**.
+    - Beachten Sie die Warnung: *Diese Option kann nach dem Erstellen dieses Speicherkontos nicht mehr geändert werden*.
+    - Klicken Sie auf **Überprüfen + erstellen**.
     - Warten Sie, bis die Ressource bereitgestellt wurde.
 
 1. Bereitstellen einer verwalteten Dienstidentität für die zu verwendende Web-App.  Weitere Informationen zu [verwalteten Identitäten](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
@@ -130,7 +133,6 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
     - Geben Sie Ihrem Verschlüsselungsbereich einen **Namen**. 
     - Der **Verschlüsselungstyp**ist**on Microsoft verwalteter Schlüssel**.
     - Legen Sie die **Infrastrukturverschlüsselung**auf**Aktivieren**fest.
-    - Beachten Sie die Warnung, dass die Aktivierung der Infrastrukturverschlüsselung nach dem Erstellen des Bereichs nicht mehr geändert werden kann.
     - Verschlüsselungsbereich **erstellen**.
     - Navigieren Sie zu Ihrem Speicherkonto und erstellen Sie einen neuen Container.
     - Beachten Sie auf der **Seite "Neuer Container** " die **Ebene "Name** " und **"Öffentlicher Zugriff"**.
