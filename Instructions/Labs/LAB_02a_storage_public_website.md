@@ -3,8 +3,6 @@ lab:
   title: 'Übung 02a: Bereitstellen von Speicher für die öffentliche Website'
   module: Guided Project - Azure Files and Azure Blobs
 ---
-
-
 Die Unternehmenswebsite bietet Produktbilder, Videos, Marketingunterlagen und Kundenerfolgsgeschichten. Kund*innen gibt es auf der ganzen Welt und die Nachfrage wächst rasant. Die Inhalte sind unternehmenskritisch und erfordern Ladezeiten mit geringer Latenz. Es ist wichtig, die Dokumentversionen nachzuverfolgen und Dokumente schnell wiederherzustellen, wenn sie gelöscht werden.
 
 ## Architekturdiagramm
@@ -17,7 +15,6 @@ Die Unternehmenswebsite bietet Produktbilder, Videos, Marketingunterlagen und Ku
 - Erstellen eines Blobspeichercontainers für die Websitedokumente
 - Aktivieren von vorläufigem Löschen zur einfachen Wiederherstellung von Dateien
 - Aktivieren der Blobversionsverwaltung 
-
 
 ## Übungsanweisungen
 
@@ -57,7 +54,7 @@ Die Unternehmenswebsite bietet Produktbilder, Videos, Marketingunterlagen und Ku
     - Wählen Sie Ihren **öffentlichen** Container aus. 
     - Wählen Sie auf dem Blatt **Übersicht** die Option **Zugriffsebene ändern** aus. 
     - Legen Sie für **Öffentliche Zugriffsebene** die Einstellung **Blob (Anonymer Lesezugriff nur für Blobs)** fest.
-    - Klickan Sie auf **OK**. 
+    - Wählen Sie **OK** aus. 
 
 ## Üben des Dateiuploads und Testen des Zugriffs
 
@@ -106,4 +103,21 @@ Die Unternehmenswebsite bietet Produktbilder, Videos, Marketingunterlagen und Ku
    - **Laden Sie** eine andere Version Ihrer Containerdatei hoch. Dadurch wird Ihre vorhandene Datei überschrieben. 
    - Ihre vorherige Dateiversion wird auf de Seite **Gelöschte Blobs anzeigen** aufgeführt. 
     
+## Erweitern Ihrer Lernerfahrung mit Copilot
 
+Copilot kann Sie bei Ihrem Lernprozess unterstützen. Copilot kann grundlegende technische Informationen, allgemeine Schritte, Vor- und Nachteile, Hilfe zur Problembehandlung, Anwendungsfälle, Codebeispiele und vieles mehr bereitstellen. Um auf Copilot zuzugreifen, öffnen Sie einen Edge-Browser, und wählen Sie "Copilot" (oben rechts) aus. Nehmen Sie sich einige Minuten Zeit, um diese Prompts auszuprobieren.
++ Was ist Azure Blob Storage und wann sollte es verwendet werden?
++ Vergleichen Sie die verschiedenen Azure-Storage-Redundanzmodelle und heben Sie deren Hauptmerkmale und Anwendungsfälle hervor.
++ Was sind die Azure-Speicherebenen und wie können diese Ebenen Geld sparen?
+
+## Weiterlernen im eigenen Tempo
+
++ [Erkunden von in Azure Blob Storage](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/) In diesem Abschitt lernen Sie die wichtigsten Features und Funktionen von Azure Blob Storage kennen.
+
+## Wichtige Erkenntnisse
+
+Herzlichen Glückwunsch zum erfolgreichen Abschluss des Labs. Hier sind die wichtigsten Erkenntnisse für dieses Lab. 
++ Azure Blob Storage ist für die Speicherung großer Mengen unstrukturierter Daten optimiert. Unstrukturierte Daten sind Daten, die keinem bestimmten Datenmodell und keiner bestimmten Definition entsprechen (also beispielsweise Text- oder Binärdaten).
++ Das Feature für das vorläufige Löschen von Blobs schützt einzelne Blobs, Momentaufnahmen oder Versionen vor einer versehentlichen Löschung oder Überschreibung, weil die gelöschten Daten für einen angegebenen Zeitraum im System beibehalten werden. 
++ Bei der Blobversionierung werden frühere Versionen eines Blobs beibehalten. Wenn die BLOB-Versionierung aktiviert ist, können Sie eine frühere Version eines BLOBs wiederherstellen, um Ihre Daten wiederherzustellen, wenn sie geändert oder gelöscht wurden.
++ Wenn ein Container für den anonymen Zugriff konfiguriert ist, kann jeder Client Daten in diesem Container lesen.

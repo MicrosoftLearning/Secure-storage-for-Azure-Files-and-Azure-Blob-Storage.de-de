@@ -20,7 +20,7 @@ Die IT-Abteilung muss verschiedene Speicherszenarios entwickeln und neue Mitarbe
 1. Erstellen Sie eine Ressourcengruppe für alle Ihre Projektressourcen und stellen Sie sie bereit. Weitere Informationen zu [Ressourcengruppen](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
     - Suchen Sie im Azure-Portal die Option `Resource groups`, und wählen Sie sie aus.
     - Wählen Sie **+ Erstellen** aus.
-    - Geben Sie Ihrer Ressourcengruppe einen **Namen**. Beispielsweise `storagerg`.
+    - Geben Sie Ihrer Ressourcengruppe einen **Namen**. Beispiel: `storagerg`.
     - Wählen Sie eine **Region** aus. Verwenden Sie diese Region für das gesamte Projekt. 
     - Wählen Sie **Überprüfen und erstellen** aus, um die Ressourcengruppe zu überprüfen.
     - Wählen Sie **Erstellen** aus, um die Ressourcengruppe bereitzustellen.
@@ -62,3 +62,23 @@ Die IT-Abteilung muss verschiedene Speicherszenarios entwickeln und neue Mitarbe
     - Klicken Sie auf **Speichern**, um die Änderungen zu speichern. 
 
 >**Hinweis**: Weitere Vorgehensweisen finden Sie im Modul [Erstellen eines Azure Storage-Kontos](https://learn.microsoft.com/training/modules/create-azure-storage-account/). Das Modul verfügt über eine Sandbox, in der Sie das Erstellen eines Speicherkontos üben können.
+
+## Erweitern Ihrer Lernerfahrung mit Copilot
+
+Copilot kann Sie bei Ihrem Lernprozess unterstützen. Copilot kann grundlegende technische Informationen, allgemeine Schritte, Vor- und Nachteile, Hilfe zur Problembehandlung, Anwendungsfälle, Codebeispiele und vieles mehr bereitstellen. Um auf Copilot zuzugreifen, öffnen Sie einen Edge-Browser, und wählen Sie "Copilot" (oben rechts) aus. Nehmen Sie sich einige Minuten Zeit, um diese Prompts auszuprobieren.
++ Was ist ein Azure Speicherkonto? Welche Azure Speicherkontotypen sind verfügbar?
++ Erstellen Sie eine Tabelle, welche die Leistungsebenen der Azure-Speicher vergleicht. Heben Sie ihre wichtigsten Features und Anwendungsfälle hervor. 
++ Welche Azure- Speicherredundanz-Optionen sind verfügbar? Wann sollte ich diese jeweils verwenden?
+
+## Weiterlernen im eigenen Tempo
+
++ [Beschreiben von Azure-Speicherdiensten](https://learn.microsoft.com/training/modules/describe-azure-storage-services/). In diesem Modul lernen Sie Azure-Speicherdienste zu vergleichen, Speicherebenen und Redundanzoptionen zu beschreiben.
++ [Erstellen Sie ein Azure Storage-Konto](https://learn.microsoft.com/training/modules/create-azure-storage-account/). In dieser Abschnitt werden Sie ein Speicherkonto erstellen und konfigurieren. 
+
+## Wichtige Erkenntnisse
+
+Herzlichen Glückwunsch zum erfolgreichen Abschluss des Labs. Hier sind die wichtigsten Erkenntnisse für dieses Lab. 
++ Ein Azure-Speicherkonto ist ein Container, der alle Ihre Azure-Storage-Datenobjekte enthält, einschließlich Blobs, Dateien, Warteschlangen und Tabellen.
++ Azure Storage bietet mehrere Arten von Speicherkonten an: Standard und Premium. Jeder Typ unterstützt unterschiedliche Features und verfügt über ein eigenes Preismodell.
++ Azure Storage speichert immer mehrere Kopien Ihrer Daten, um sie vor geplanten und ungeplanten Ereignissen zu schützen.
++ Redundanzmodelle können Daten in den primären und sekundären Regionen replizieren. 
