@@ -38,7 +38,7 @@ Das Unternehmen benötigt Speicher für seine Büros und Abteilungen. Diese Inha
     - Stellen Sie sicher, dass **Georedundanter Speicher (GRS)** ausgewählt ist.
     - **Aktualisieren** Sie die Seite. 
     - Überprüfen Sie die primären und sekundären Standortinformationen. 
-    - Wählen Sie **Speichern** aus, um die Änderungen zu speichern.
+    - **Speichern** Sie die Änderungen.
 
 ## Erstellen eines Speichercontainers, Hochladen einer Datei und Einschränken des Dateizugriffs 
 
@@ -101,3 +101,21 @@ Das Unternehmen benötigt Speicher für seine Büros und Abteilungen. Diese Inha
 
 >**Hinweis**Weitere Vorgehensweisen finden Sie im Modul [Konfigurieren von Azure Blob Storage](https://learn.microsoft.com/training/modules/configure-blob-storage/). Das Modul verfügt über eine interaktive Labsimulation, in der Sie das Erstellen von Blobspeichern weiter üben können. 
 
+## Erweitern Ihrer Lernerfahrung mit Copilot
+
+Copilot kann Sie bei Ihrem Lernprozess unterstützen. Copilot kann grundlegende technische Informationen, allgemeine Schritte, Vor- und Nachteile, Hilfe zur Problembehandlung, Anwendungsfälle, Codebeispiele und vieles mehr bereitstellen. Um auf Copilot zuzugreifen, öffnen Sie einen Edge-Browser, und wählen Sie "Copilot" (oben rechts) aus. Nehmen Sie sich einige Minuten Zeit, um diese Prompts auszuprobieren.
++ Welche Sicherheitsfeatures stehen zum Schutz von Azure Storage zur Verfügung?
++ Was ist ein Azure SAS und wie wird es verwendet?
+
+## Weiterlernen im eigenen Tempo
+
++ [Konfigurieren der Sicherheit von Azure Storage](https://learn.microsoft.com/training/modules/configure-storage-security/) In diesem Abschnitt erfahren Sie, wie Sie allgemeine Sicherheitsfunktionen von Azure Storage wie Speicherzugriffssignaturen konfigurieren.
++ [Verwalten des Azure Blob Storage-Lebenszyklus](https://learn.microsoft.com/training/modules/configure-storage-security/) In diesem Abschnitt erfahren Sie, wie Sie die Datenverfügbarkeit während des gesamten Lebenszyklus von Azure Blob Storage verwalten.
+
+## Wichtige Erkenntnisse
+
+Herzlichen Glückwunsch zum erfolgreichen Abschluss des Labs. Hier sind die wichtigsten Erkenntnisse für dieses Lab. 
++ Azure Storage verfügt über viele Datenschutzfunktionen, darunter Verschlüsselung, Zugriffssteuerung, Netzwerksicherheit, Überwachung und Warnungen. 
++ Eine Shared Access Signature (SAS) ermöglicht den sicheren delegierten Zugriff auf Ressourcen in Ihrem Speicherkonto. Mit SAS können Sie genau steuern, wie ein Client auf Ihre Daten zugreifen kann.
++ Die Azure Blob Storage-Lebenszyklusverwaltung bietet eine regelbasierte Richtlinie, mit deren Hilfe Sie den Übergang von Blob-Daten auf die entsprechenden Zugriffsebenen und den Ablauf der Daten am Ende des Datenlebenszyklus umsetzen können.
++ Die Objektreplikation kopiert Blockblobs asynchron zwischen einem Quellspeicherkonto und einem Zielkonto.

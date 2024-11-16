@@ -60,7 +60,7 @@ Das Unternehmen besitzt Niederlassungen an verschiedenen geografischen Standorte
     
     - Wählen Sie Ihre Dateifreigabe aus.
     - Wählen Sie im Abschnitt **Vorgänge** das Blatt **Momentaufnahmen** aus. 
-    - Wählen Sie **+ Momentaufnahme hinzufügen** aus. Der Kommentar ist optional. Klickan Sie auf **OK**.
+    - Wählen Sie **+ Momentaufnahme hinzufügen** aus. Der Kommentar ist optional. Wählen Sie **OK** aus.
     - Wählen Sie Ihre Momentaufnahme aus, und überprüfen Sie, ob das Dateiverzeichnis und die hochgeladene Datei enthalten sind.
   
 1. Üben Sie die Verwendung von Momentaufnahmen zum Wiederherstellen einer Datei.
@@ -100,3 +100,21 @@ Das Unternehmen besitzt Niederlassungen an verschiedenen geografischen Standorte
 
 
 >**Hinweis**: Weitere Vorgehensweisen finden Sie im Modul [Konfigurieren der Sicherheit von Azure Storage](https://learn.microsoft.com/training/modules/configure-storage-security/). Das Modul verfügt über eine interaktive Labsimulation, in der Sie das Erstellen von sicheren Speichern weiter üben können. 
+
+## Erweitern Ihrer Lernerfahrung mit Copilot
+
+Copilot kann Sie bei Ihrem Lernprozess unterstützen. Copilot kann grundlegende technische Informationen, allgemeine Schritte, Vor- und Nachteile, Hilfe zur Problembehandlung, Anwendungsfälle, Codebeispiele und vieles mehr bereitstellen. Um auf Copilot zuzugreifen, öffnen Sie einen Edge-Browser, und wählen Sie "Copilot" (oben rechts) aus. Nehmen Sie sich einige Minuten Zeit, um diese Prompts auszuprobieren.
++ Was ist Azure File Storage und wie unterscheidet es sich von Azure Blob Storage? Wie entscheiden Sie also, welche Methode Sie verwenden?
++ Was sind die verschiedenen Möglichkeiten zum Sichern von Azure-Dateiinhalten?
+
+## Weiterlernen im eigenen Tempo
+
++ [Konfigurieren von Azure-Dateien und Azure-Dateisynchronisierung](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/). In diesem Modul lernen Sie, Azure-Dateifreigaben und Dateifreigabe-Snapshots zu konfigurieren.
+
+## Wichtige Erkenntnisse
+
+Herzlichen Glückwunsch zum erfolgreichen Abschluss des Labs. Hier sind die wichtigsten Erkenntnisse für dieses Lab. 
++ Azure Files bietet vollständig verwaltete Dateifreigaben in der Cloud, auf die über das Branchenstandardprotokoll Server Message Block (SMB), das Network File System-Protokoll (NFS) sowie über die Azure Files-REST-API zugegriffen werden kann.
++ Azure Files bietet die Möglichkeit, Momentaufnahmen von SMB- und NFS-Dateifreigaben zu erstellen. Freigabemomentaufnahmen erfassen den Freigabestatus zum jeweiligen Zeitpunkt. Freigabemomentaufnahmen bieten nur Schutz auf der Dateiebene.
++ Sie können den Endpunkt eines Speicherkontos für den direkten Zugriff auf die Azure-Dateifreigabe konfigurieren. Sie können Ihre Endpunkte so konfigurieren, dass der Netzwerkzugriff auf Ihr Speicherkonto beschränkt wird.
+

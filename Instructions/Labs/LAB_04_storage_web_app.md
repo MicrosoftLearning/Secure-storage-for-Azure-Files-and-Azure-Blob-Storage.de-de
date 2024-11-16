@@ -140,3 +140,28 @@ Das Unternehmen entwirft und entwickelt eine neue App. Das Entwicklerteam muss s
 
 
 >**Hinweis**Für zusätzliche Übungen vervollständigen Sie das Modul [Sichern und Isolieren des Zugriffs auf Azure-Ressoursen mit Hilfe von Netzwerkgruppen und Dienstenpunkten](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). Das Modul verfügt über eine Sandbox, in der Sie mehr Übung beim Einschränken des Zugriffs auf Speicher erhalten können.
+
+## Bereinigen Ihrer Ressourcen
+
+Wenn Sie mit **Ihrem eigenen Abonnement** arbeiten und diese Übungen abgeschlossen haben, nehmen Sie sich eine Minute Zeit, um die Labressourcen zu löschen. Dadurch wird sichergestellt, dass Ressourcen freigegeben und Kosten minimiert werden. Die einfachste Möglichkeit zum Löschen der Labressourcen besteht darin, die Ressourcengruppe des Labs zu löschen. 
+
++ Wählen Sie im Azure-Portal die Ressourcengruppe und dann **Ressourcengruppe löschen** aus, **geben Sie den Ressourcengruppennamen ein**, und klicken Sie dann auf **Löschen**.
++ Bei Verwendung von Azure PowerShell: `Remove-AzResourceGroup -Name resourceGroupName`.
++ Bei Verwendung der Befehlszeilenschnittstelle: `az group delete --name resourceGroupName`.
+
+## Erweitern Ihrer Lernerfahrung mit Copilot
+
+Copilot kann Sie bei Ihrem Lernprozess unterstützen. Copilot kann grundlegende technische Informationen, allgemeine Schritte, Vor- und Nachteile, Hilfe zur Problembehandlung, Anwendungsfälle, Codebeispiele und vieles mehr bereitstellen. Um auf Copilot zuzugreifen, öffnen Sie einen Edge-Browser, und wählen Sie "Copilot" (oben rechts) aus. Nehmen Sie sich einige Minuten Zeit, um diese Prompts auszuprobieren.
++ Was ist eine von Azure verwaltete Identität und wie kann sie mit Azure Storage verwendet werden?
++ Welche integrierten Rollen für die rollenbasierte Zugriffskontrolle (RBAC) sind für die Verwaltung des Zugriffs auf Azure Storage verfügbar? 
++ Was sind vom Kunden verwaltete Schlüssel und wie werden sie für Azure Storage verwendet?
+
+## Weiterlernen im eigenen Tempo
+
++ [Schützen und Isolieren des Zugriffs auf Azure-Ressourcen mithilfe von Netzwerksicherheitsgruppen und Dienstendpunkten.](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) In diesem Abschnitt lernen Sie, wie Sie virtuelle Netzwerkdienst-Endpunkte verwenden, um den Netzwerkverkehr zu und von Azure-Diensten zu steuern.
+
+## Wichtige Erkenntnisse
++ Azure verfügt über integrierte RBAC-Rollen für Azure-Speicher. Zu diesen Rollen gehören: Speicherkonto-Mitwirkende, Speicher-Blob-Daten-Eigentümer und Dateidaten-SMB-Freigabe-Mitwirkende.
++ Sie können Ihren eigenen Verschlüsselungsschlüssel verwenden, um die Daten Ihres Speicherkontos zu schützen. Wenn Sie einen vom Kunden verwalteten Schlüssel angeben, wird dieser zum Schützen und Steuern des Zugriffs auf den Schlüssel verwendet, mit dem Ihre Daten verschlüsselt werden. 
++ Unveränderlicher Speicher stellt sicher, dass Daten für ein vom Benutzer angegebenes Intervall nicht geändert oder gelöscht werden können. Es gibt zwei Arten von unveränderlichen Richtlinien: zeitbasierte und gesetzliche Aufbewahrungspflicht.
++ Die Infrastrukturverschlüsselung kann für das gesamte Speicherkonto oder für einen Verschlüsselungsbereich innerhalb eines Kontos aktiviert werden. Die Infrastrukturverschlüsselung wird für Szenarien empfohlen, in denen die doppelte Verschlüsselung von Daten gemäß den Complianceanforderungen erforderlich ist. 
